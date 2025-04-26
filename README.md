@@ -95,16 +95,7 @@ Built using deep learning technology with YOLOv8 models, EnviroScan allows users
 
 ## 📜 License
 
-This project is licensed under the **Apache License 2.0** — see the `LICENSE.md` file for details.
-
----
-
-## ✨ Credits
-
-- YOLOv8 by [Ultralytics](https://ultralytics.com/)
-- Roboflow for Dataset Management
-- TensorFlow Lite for Model Deployment
-- Android Open Source Libraries
+This project is licensed under the **MIT** — see the `LICENSE.md` file for details.
 
 ---
 
