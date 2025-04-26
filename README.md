@@ -69,10 +69,10 @@ Built using deep learning technology with YOLOv8 models, EnviroScan allows users
 
 | Metric                         | Value               |
 |---------------------------------|---------------------|
-| Tree Detection Accuracy        | 91.8%               |
-| Species Identification Accuracy| 88.6%               |
+| Tree Detection Accuracy        | 79.8%               |
+| Species Identification Accuracy| 78.6%               |
 | Inference Time per Image        | ~300 ms             |
-| APK Size                        | ~42 MB              |
+| APK Size                        | ~14.81 MB              |
 
 ---
 
