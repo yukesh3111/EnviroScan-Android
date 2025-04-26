@@ -80,7 +80,6 @@ Built using deep learning technology with YOLOv8 models, EnviroScan allows users
 
 - Models are embedded and protected inside the APK.
 - No user data is collected or transmitted externally.
-- Offline functionality ensures privacy and data security.
 
 ---
 
