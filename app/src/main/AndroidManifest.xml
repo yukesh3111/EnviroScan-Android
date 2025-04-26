@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EnviroScan"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Checkingapi"
+            android:exported="false" />
+
+        <activity
+            android:name=".ViewArticle"
+            android:exported="false" />
+        <activity
+            android:name=".speciessummarydescription"
+            android:exported="false" />
+        <activity
+            android:name=".greenspacesummaryreport"
+            android:exported="false" />
+        <activity
+            android:name=".greenspaceresult"
+            android:exported="false" />
+        <activity
+            android:name=".comparewithexistingresult"
+            android:exported="false" />
+        <activity
+            android:name=".comparewithexistupload"
+            android:exported="false" />
+        <activity
+            android:name=".speciesclaritychallenge"
+            android:exported="false" />
+        <activity
+            android:name=".treecountingresult"
+            android:exported="false" />
+        <activity
+            android:name=".speciesidentificationresult"
+            android:exported="false" />
+        <activity
+            android:name=".species_image_upload"
+            android:exported="false" />
+        <activity
+            android:name=".greenspace_image_upload"
+            android:exported="false" />
+        <activity
+            android:name=".ImageUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Navbarprofile"
+            android:exported="false" />
+        <activity
+            android:name=".AritcleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

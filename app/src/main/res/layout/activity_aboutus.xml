@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".AboutusActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:paddingStart="10dp">
+
+        <ImageView
+            android:id="@+id/backbnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/outline_arrow_back_ios_new_24" />
+
+        <ImageView
+            android:id="@+id/nav_logo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image_removebg_preview" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        android:layout_margin="20dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At EnviroScan, we believe that environmental sustainability is not just a goal, but a fundamental responsibility. Our mission is to lead the charge in revolutionizing environmental conservation through innovation. We are committed to leveraging cutting-edge technology and data-driven insights to address the complex challenges facing our planet's ecosystems.\n\nWith a steadfast dedication to sustainability, we strive to empower individuals, organizations, and communities to make informed decisions that positively impact the environment. Our solutions are designed to provide actionable insights and practical tools that enable proactive conservation efforts, ensuring a harmonious coexistence between humanity and nature."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/aboutusinnovation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/aboutus"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Innovation"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are at the forefront of innovation, continuously pushing the boundaries of technology to develop solutions that drive positive environmental change."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/aboutusaccuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/aboutusinnovation"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accuracy"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our solutions are built on scientific principles and rigorous testing, ensuring accuracy and reliability in every aspect of our work."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/aboutussubstainity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/aboutusaccuracy"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sustainability"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are committed to sustainability in everything we do, from our internal operations to the solutions we provide to our clients."
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/aboutusimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/aboutussubstainity"
+        android:showDividers="middle"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:divider="@drawable/empty_tall_divider"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rectangle_497"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rectangle_498"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rectangle_499"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/keyfeatures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:showDividers="middle"
+
+            android:divider="@drawable/verticalgap"
+            app:layout_constraintTop_toBottomOf="@+id/aboutusimage">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/smallbuttons"
+                android:showDividers="middle"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:orientation="horizontal"
+                android:divider="@drawable/empty_tall_divider"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_image_search_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Efficient Image Processing"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/aboutustreespeciescat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/smallbuttons"
+                android:showDividers="middle"
+                android:paddingStart="20dp"
+                android:orientation="horizontal"
+                android:divider="@drawable/empty_tall_divider"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_image_search_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tree Species Categorization"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/aboutusimageprocessing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/smallbuttons"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_marginBottom="30dp"
+                android:showDividers="middle"
+                android:paddingStart="20dp"
+                android:orientation="horizontal"
+                android:divider="@drawable/empty_tall_divider"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_image_search_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Valuable Insights for Decision making"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
