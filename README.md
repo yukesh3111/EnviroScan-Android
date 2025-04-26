@@ -15,9 +15,7 @@ Built using deep learning technology with YOLOv8 models, EnviroScan allows users
 
 | Home Screen | Tree Counting | Species Identification | Green-Land Separation | Tree Comparison |
 |:-----------:|:--------------:|:-----------------------:|:----------------------:|:---------------:|
-| ![Home Screen](Screenshots/IMG-20241216-WA0009-portrait.png) | ![Tree Counting](Screenshots/IMG-20241216-WA0019-portrait.png) | ![Species Identification](Screenshots/IMG-20241216-WA0023-portrait.png) | ![Green Land Separation](Screenshots/IMG-20241216-WA0020-portrait.png) | ![Tree Comparison](Screenshots/IMG-20241216-WA0026-portrait.png) |
-
-> 📂 **Place your screenshots in a `screenshots/` folder** in your project directory.
+| <img src="Screenshots/IMG-20241216-WA0009-portrait.png" width="150"/> | <img src="Screenshots/IMG-20241216-WA0019-portrait.png" width="150"/> | <img src="Screenshots/IMG-20241216-WA0023-portrait.png" width="150"/> | <img src="Screenshots/IMG-20241216-WA0020-portrait.png" width="150"/> | <img src="Screenshots/IMG-20241216-WA0026-portrait.png" width="150"/> |
 
 ---
 
