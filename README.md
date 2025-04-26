@@ -12,9 +12,9 @@ Built using deep learning technology with YOLOv8 models, EnviroScan allows users
 ---
 ## 📸 Screenshots
 
-| Home Screen | Tree Counting | Species Identification | Green-Land Separation | Tree Comparison | View Article |
-|:-----------:|:--------------:|:-----------------------:|:----------------------:|:---------------:|:------------:|
-| <img src="Screenshots/IMG-20241216-WA0009-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0019-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0023-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0020-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0026-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0012-portrait.png" width="120"/> |
+| Home Screen | Tree Counting | Species Identification | Green-Land Separation | Tree Comparison | 
+|:-----------:|:--------------:|:-----------------------:|:----------------------:|:---------------:|
+| <img src="Screenshots/IMG-20241216-WA0009-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0019-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0023-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0020-portrait.png" width="120"/> | <img src="Screenshots/IMG-20241216-WA0026-portrait.png" width="120"/> |
 
 
 ---
